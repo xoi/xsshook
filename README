@@ -1,0 +1,23 @@
+xsshook is a screen saver hook utility for X servers supporting the
+MIT-SCREEN-SAVER extension.
+It executes the specified command when the screen saver activated;
+it sends TERM signal to the process when the screen saver deactivated.
+
+The simplest way to compile and install this package is:
+
+  - `cd' to the directory containing the package's source code.
+
+  - When you compile from repository, type `autoreconf -i' to create
+    `configure'.
+
+  - Type the following command.
+
+    $ ./configure
+    $ make
+    # make install
+
+Usage:
+
+  xsshook command
+
+  command is the shell command.

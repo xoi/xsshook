@@ -1,0 +1,4 @@
+bin_PROGRAMS = xsshook
+
+AM_CFLAGS = $(XSSHOOK_CFLAGS)
+xsshook_LDADD = $(XSSHOOK_LIBS)
