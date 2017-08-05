@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([xsshook], [0.1])
+AC_INIT([xsshook], [0.1.1])
 AM_INIT_AUTOMAKE([foreign])
 AC_CONFIG_SRCDIR([xsshook.c])
 AC_CONFIG_HEADERS([config.h])
